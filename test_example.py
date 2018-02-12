@@ -5,7 +5,8 @@
 # Unzip, rename the folder as javeplex and put it in the same folder where this script is         |
 #-------------------------------------------------------------------------------------------------|
 # R-TDA                                                                                           |
-# install TDA package in R and properly set the R library path                                    |
+# install TDA package in R and properly set the R library path
+# start R and run install.packages(pkgs = "TDA")
 #-------------------------------------------------------------------------------------------------|
 # Python packages                                                                                 |
 # Numpy, Pickle                                                                                   |
