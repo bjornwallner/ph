@@ -1,4 +1,4 @@
-clear
+%clear
 dir=fileparts(mfilename('fullpath'));
 javaaddpath([dir,'/javaplex/lib/javaplex.jar']);
 import edu.stanford.math.plex4.*;
@@ -27,7 +27,7 @@ sizeB = [2,Inf];
 
 
 for j=1:41
-    e2 = LIGELE{j}
+  e2 = LIGELE{j};
     
     Name = strcat(pdb,'_',e2,'.pts');
     NameB = strcat(pdb,'_',e2,'.bds');
@@ -103,5 +103,6 @@ for j=1:41
     end
 end
 
-%exit
+
+exit
 %cd ..
